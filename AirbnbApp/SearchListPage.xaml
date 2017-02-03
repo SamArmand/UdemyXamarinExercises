@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Padding="0,20,0,0" 
+	xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UdemyXamarinExercises.AirbnbApp.SearchListPage">
+	<StackLayout>
+		<SearchBar x:Name="SearchBar" TextChanged="Handle_Refreshing" Placeholder="Search..."/>
+		<ListView x:Name="ListView"  IsPullToRefreshEnabled="true"
+			ItemSelected="Handle_ItemSelected" ItemTapped="Handle_ItemTapped" Refreshing="Handle_Refreshing"
+			IsGroupingEnabled="true">
+		    <ListView.GroupDisplayBinding>
+		        <Binding>
+		            <Binding.Path>Title</Binding.Path>
+		        </Binding>
+		    </ListView.GroupDisplayBinding>
+		    <ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell>
+					    <TextCell.Detail>
+					        <Binding>
+					            <Binding.Path>Period</Binding.Path>
+					        </Binding>
+					    </TextCell.Detail>
+					    <TextCell.Text>
+					        <Binding>
+					            <Binding.Path>Location</Binding.Path>
+					        </Binding>
+					    </TextCell.Text>
+					    <TextCell.ContextActions>
+							<MenuItem Text="Delete" Clicked="Delete_Clicked"
+								IsDestructive="true" CommandParameter="{Binding .}"/>
+						</TextCell.ContextActions>
+					</TextCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>

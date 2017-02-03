@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Movies" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="UdemyXamarinExercises.NetflixRouletteApp.MoviesSearchPage">
+	<StackLayout>
+		<SearchBar TextChanged="Handle_TextChanged" Placeholder="Search..." />
+		<ActivityIndicator>
+		    <ActivityIndicator.IsRunning>
+		        <Binding>
+		            <Binding.Path>IsSearching</Binding.Path>
+		        </Binding>
+		    </ActivityIndicator.IsRunning>
+		</ActivityIndicator>
+	    <Frame x:Name="Frame" Padding="20" HasShadow="false" IsVisible="false">
+			<Label Text="No results found"/>
+		</Frame>
+		<ListView x:Name="ListView" ItemSelected="Handle_ItemSelected">
+		    <ListView.ItemTemplate>
+				<DataTemplate>
+					<ImageCell>
+						<ImageCell.ImageSource>
+							<Binding>
+								<Binding.Path>PosterUri</Binding.Path>
+							</Binding>
+						</ImageCell.ImageSource>
+					    <ImageCell.Detail>
+					        <Binding>
+					            <Binding.Path>ReleaseYear</Binding.Path>
+					        </Binding>
+					    </ImageCell.Detail>
+					    <ImageCell.Text>
+					        <Binding>
+					            <Binding.Path>Title</Binding.Path>
+					        </Binding>
+					    </ImageCell.Text>
+					</ImageCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+	</StackLayout>
+</ContentPage>

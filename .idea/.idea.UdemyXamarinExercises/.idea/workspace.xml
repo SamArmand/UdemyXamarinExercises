@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5de8e1c-598d-42d7-9722-ca0fcb65c59b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="RelaxPage.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RelaxPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1483062771000" expanded="true" signature="39:1167" ph="&lt;&lt;AbsoluteLayout&gt;&#10;&#9;&#9;&lt;Image Aspect=&quot;AspectFill&quot; Source=&quot;http://lorempixel.com/1920/1080/nature/7&quot;&#10;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot; AbsoluteLayout.LayoutFlags=&quot;All&quot;/&gt;&#10;&#9;&#9;&lt;Label Text=&quot;Relax&quot; TextColor=&quot;White&quot; FontSize=&quot;30&quot; HorizontalOptions=&quot;Center&quot; &#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 20, 1, 1&quot; AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;/&gt;&#10;&#9;&#9;&lt;BoxView Color=&quot;Black&quot; Opacity=&quot;0.5&quot; AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;/&gt;&#10;&#9;&#9;&lt;StackLayout Padding=&quot;30,0&quot; Orientation=&quot;Horizontal&quot; VerticalOptions=&quot;Center&quot;&#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Profile&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Meditate&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;CenterAndExpand&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Themes&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&lt;/StackLayout&gt;&#10;&#9;&lt;/AbsoluteLayout&gt;.../&gt;" />
+                <marker date="1483062771000" expanded="true" signature="197:1152" ph="&lt;&lt;Image Aspect=&quot;AspectFill&quot; Source=&quot;http://lorempixel.com/1920/1080/nature/7&quot;&#10;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot; AbsoluteLayout.LayoutFlags=&quot;All&quot;/&gt; &lt;Label Text=&quot;Relax&quot; TextColor=&quot;White&quot; FontSize=&quot;30&quot; HorizontalOptions=&quot;Center&quot; &#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 20, 1, 1&quot; AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;/&gt; &lt;BoxView Color=&quot;Black&quot; Opacity=&quot;0.5&quot; AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;/&gt; &lt;StackLayout Padding=&quot;30,0&quot; Orientation=&quot;Horizontal&quot; VerticalOptions=&quot;Center&quot;&#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Profile&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Meditate&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;CenterAndExpand&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Themes&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&lt;/StackLayout&gt;.../&gt;" />
+                <marker date="1483062771000" expanded="true" signature="216:367" ph="&lt;.../&gt;" />
+                <marker date="1483062771000" expanded="true" signature="370:542" ph="&lt;.../&gt;" />
+                <marker date="1483062771000" expanded="true" signature="698:1133" ph="&lt;&lt;Label Text=&quot;Profile&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt; &lt;Label Text=&quot;Meditate&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;CenterAndExpand&quot;/&gt; &lt;Label Text=&quot;Themes&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelaxPage.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RelaxPage.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484221044000" expanded="true" signature="31:128" ph="{...}" />
+                <marker date="1484221044000" expanded="true" signature="65:126" ph="{...}" />
+                <marker date="1484221044000" expanded="true" signature="89:123" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpPage.xaml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignUpPage.xaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484221364000" expanded="true" signature="257:939" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;&#9;&#9;&#9;&lt;RowDefinition/&gt;&#10;&#9;&#9;&#9;&lt;RowDefinition Height=&quot;40&quot;/&gt;&#10;&#9;&#9;&#9;&lt;RowDefinition Height=&quot;40&quot;/&gt;&#10;&#9;&#9;&lt;/Grid.RowDefinitions&gt; &lt;StackLayout VerticalOptions=&quot;Center&quot; Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot;&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Welcome to Xamarin&quot; FontSize=&quot;30&quot; TextColor=&quot;White&quot; FontAttributes=&quot;Bold&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Cross-platform apps made easy&quot; FontSize=&quot;18&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;&#9;&#9;&lt;/StackLayout&gt; &lt;Button Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; BackgroundColor=&quot;##1dabf0&quot; TextColor=&quot;White&quot; Text=&quot;Login&quot;/&gt; &lt;Button HeightRequest=&quot;40&quot; Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; BackgroundColor=&quot;##1dabf0&quot; TextColor=&quot;White&quot; Text=&quot;Register&quot;/&gt;.../&gt;" />
+                <marker date="1484221364000" expanded="true" signature="266:396" ph="&lt;&lt;RowDefinition/&gt; &lt;RowDefinition Height=&quot;40&quot;/&gt; &lt;RowDefinition Height=&quot;40&quot;/&gt;.../&gt;" />
+                <marker date="1484221364000" expanded="true" signature="399:712" ph="&lt;&lt;Label Text=&quot;Welcome to Xamarin&quot; FontSize=&quot;30&quot; TextColor=&quot;White&quot; FontAttributes=&quot;Bold&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;Cross-platform apps made easy&quot; FontSize=&quot;18&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot; /&gt;.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SignUpPage.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SignUpPage.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484221385000" expanded="true" signature="31:130" ph="{...}" />
+                <marker date="1484221385000" expanded="true" signature="66:128" ph="{...}" />
+                <marker date="1484221385000" expanded="true" signature="91:125" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/AppDelegate.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484215378000" expanded="true" signature="6:66" ph="..." />
+                <marker date="1484215378000" expanded="true" signature="103:484" ph="{...}" />
+                <marker date="1484215378000" expanded="true" signature="212:482" ph="{...}" />
+                <marker date="1484215378000" expanded="true" signature="313:479" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Entitlements.plist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/Entitlements.plist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Info.plist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/Info.plist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaunchScreen.storyboard" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/LaunchScreen.storyboard">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/Main.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1484221751000" expanded="true" signature="49:344" ph="{...}" />
+                <marker date="1484221751000" expanded="true" signature="77:342" ph="{...}" />
+                <marker date="1484221751000" expanded="true" signature="83:252" ph="/* This is the main entry point of the application. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqliteDb.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/iOS/Persistence/SqliteDb.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1484737450000" expanded="true" signature="6:151" ph="..." />
+                <marker date="1484737450000" expanded="true" signature="242:580" ph="{...}" />
+                <marker date="1484737450000" expanded="true" signature="282:578" ph="{...}" />
+                <marker date="1484737450000" expanded="true" signature="341:572" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/App.xaml.cs" />
+        <option value="$PROJECT_DIR$/CreditPage.xaml" />
+        <option value="$PROJECT_DIR$/CreditPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/DialPage.xaml" />
+        <option value="$PROJECT_DIR$/GalleryPage.xaml" />
+        <option value="$PROJECT_DIR$/GalleryPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/DialPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/MainPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/QuotesPage.xaml" />
+        <option value="$PROJECT_DIR$/QuotesPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/Models/Search.cs" />
+        <option value="$PROJECT_DIR$/RelaxPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/SearchListPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/SignUpPage.xaml" />
+        <option value="$PROJECT_DIR$/SignUpPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/iOS/Main.cs" />
+        <option value="$PROJECT_DIR$/Services/SearchService.cs" />
+        <option value="$PROJECT_DIR$/Properties/AssemblyInfo.cs" />
+        <option value="$PROJECT_DIR$/Models/SearchGroup.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/MyProfilePage.xaml.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/MainPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/Models/Activity.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/Models/User.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/Services/ActivityService.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/Services/UserService.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/ActivitiesPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/InstagramApp/ProfilePage.xaml" />
+        <option value="$PROJECT_DIR$/InstagramApp/ActivitiesPage.xaml" />
+        <option value="$PROJECT_DIR$/SearchListPage.xaml" />
+        <option value="$PROJECT_DIR$/InstagramApp/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/InstagramApp/ProfilePage.xaml.cs" />
+        <option value="$PROJECT_DIR$/NetflixRouletteApp/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/NetflixRouletteApp/MovieDetailPage.xaml" />
+        <option value="$PROJECT_DIR$/NetflixRouletteApp/MoviesSearchPage.xaml" />
+        <option value="$PROJECT_DIR$/Persistence/ISQLiteDb.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/Models/Contact.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/Persistence/IContactStore.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/Persistence/SQLiteContactStore.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/Services/IPageService.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/ViewModels/BaseViewModel.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/ViewModels/ContactsPageViewModel.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/ViewModels/EditContactPageViewModel.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/ContactsPage.xaml" />
+        <option value="$PROJECT_DIR$/SkypeApp/ContactsPage.xaml.cs" />
+        <option value="$PROJECT_DIR$/SkypeApp/EditContactPage.xaml" />
+        <option value="$PROJECT_DIR$/SkypeApp/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/SkypeApp/PhonePage.xaml" />
+        <option value="$PROJECT_DIR$/SkypeApp/PhonePage.xaml.cs" />
+        <option value="$PROJECT_DIR$/iOS/Persistence/SQLiteDb.cs" />
+        <option value="$PROJECT_DIR$/iOS/Persistence/SqliteDb.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="33" />
+    <option name="y" value="33" />
+    <option name="width" value="1240" />
+    <option name="height" value="696" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UdemyXamarinExercises (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UdemyXamarinExercises (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UdemyXamarinExercises" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5de8e1c-598d-42d7-9722-ca0fcb65c59b" name="Default" comment="" />
+      <created>1484218355240</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1484218355240</updated>
+      <workItem from="1484218358821" duration="9602000" />
+      <workItem from="1484735652572" duration="826000" />
+      <workItem from="1484736484965" duration="32000" />
+      <workItem from="1484736550373" duration="769000" />
+      <workItem from="1484737619787" duration="613000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11842000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="33" y="33" width="1240" height="696" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors in solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UnitTesting" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/InstagramApp/Services/UserService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/ActivitiesPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/ActivitiesPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/MyProfilePage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/MyProfilePage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/ProfilePage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InstagramApp/ProfilePage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetflixRouletteApp/Models/Movie.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetflixRouletteApp/Services/MovieService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="71" lean-forward="false" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetflixRouletteApp/MovieDetailPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetflixRouletteApp/MovieDetailPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NetflixRouletteApp/MoviesSearchPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Properties/AssemblyInfo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/Models/Contact.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Persistence/ISqliteDb.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/Persistence/IContactStore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/Persistence/SQLiteContactStore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/Services/IPageService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/Services/PageService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/ViewModels/BaseViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/ViewModels/ContactsPageViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="46" column="23" lean-forward="false" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/ViewModels/EditContactPageViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/ContactsPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/ContactsPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/CreditPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/CreditPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/EditContactPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="57" lean-forward="false" selection-start-line="1" selection-start-column="57" selection-end-line="1" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/PhonePage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkypeApp/PhonePage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalleryPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GalleryPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuotesPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuotesPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RelaxPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1483062771000" expanded="true" signature="39:1167" ph="&lt;&lt;AbsoluteLayout&gt;&#10;&#9;&#9;&lt;Image Aspect=&quot;AspectFill&quot; Source=&quot;http://lorempixel.com/1920/1080/nature/7&quot;&#10;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot; AbsoluteLayout.LayoutFlags=&quot;All&quot;/&gt;&#10;&#9;&#9;&lt;Label Text=&quot;Relax&quot; TextColor=&quot;White&quot; FontSize=&quot;30&quot; HorizontalOptions=&quot;Center&quot; &#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 20, 1, 1&quot; AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;/&gt;&#10;&#9;&#9;&lt;BoxView Color=&quot;Black&quot; Opacity=&quot;0.5&quot; AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;/&gt;&#10;&#9;&#9;&lt;StackLayout Padding=&quot;30,0&quot; Orientation=&quot;Horizontal&quot; VerticalOptions=&quot;Center&quot;&#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Profile&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Meditate&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;CenterAndExpand&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Themes&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&lt;/StackLayout&gt;&#10;&#9;&lt;/AbsoluteLayout&gt;.../&gt;" />
+            <marker date="1483062771000" expanded="true" signature="197:1152" ph="&lt;&lt;Image Aspect=&quot;AspectFill&quot; Source=&quot;http://lorempixel.com/1920/1080/nature/7&quot;&#10;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0,0,1,1&quot; AbsoluteLayout.LayoutFlags=&quot;All&quot;/&gt; &lt;Label Text=&quot;Relax&quot; TextColor=&quot;White&quot; FontSize=&quot;30&quot; HorizontalOptions=&quot;Center&quot; &#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 20, 1, 1&quot; AbsoluteLayout.LayoutFlags=&quot;SizeProportional&quot;/&gt; &lt;BoxView Color=&quot;Black&quot; Opacity=&quot;0.5&quot; AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;/&gt; &lt;StackLayout Padding=&quot;30,0&quot; Orientation=&quot;Horizontal&quot; VerticalOptions=&quot;Center&quot;&#10;&#9;&#9;&#9;AbsoluteLayout.LayoutBounds=&quot;0, 1, 1, 100&quot; AbsoluteLayout.LayoutFlags=&quot;PositionProportional, WidthProportional&quot;&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Profile&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Meditate&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;CenterAndExpand&quot;/&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Themes&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;&#10;&#9;&#9;&lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1483062771000" expanded="true" signature="216:367" ph="&lt;.../&gt;" />
+            <marker date="1483062771000" expanded="true" signature="370:542" ph="&lt;.../&gt;" />
+            <marker date="1483062771000" expanded="true" signature="698:1133" ph="&lt;&lt;Label Text=&quot;Profile&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt; &lt;Label Text=&quot;Meditate&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;CenterAndExpand&quot;/&gt; &lt;Label Text=&quot;Themes&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot;/&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RelaxPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484221044000" expanded="true" signature="31:128" ph="{...}" />
+            <marker date="1484221044000" expanded="true" signature="65:126" ph="{...}" />
+            <marker date="1484221044000" expanded="true" signature="89:123" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUpPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484221364000" expanded="true" signature="257:939" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;&#9;&#9;&#9;&lt;RowDefinition/&gt;&#10;&#9;&#9;&#9;&lt;RowDefinition Height=&quot;40&quot;/&gt;&#10;&#9;&#9;&#9;&lt;RowDefinition Height=&quot;40&quot;/&gt;&#10;&#9;&#9;&lt;/Grid.RowDefinitions&gt; &lt;StackLayout VerticalOptions=&quot;Center&quot; Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot;&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Welcome to Xamarin&quot; FontSize=&quot;30&quot; TextColor=&quot;White&quot; FontAttributes=&quot;Bold&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;&#9;&#9;&#9;&lt;Label Text=&quot;Cross-platform apps made easy&quot; FontSize=&quot;18&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot; /&gt;&#10;&#9;&#9;&lt;/StackLayout&gt; &lt;Button Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; BackgroundColor=&quot;##1dabf0&quot; TextColor=&quot;White&quot; Text=&quot;Login&quot;/&gt; &lt;Button HeightRequest=&quot;40&quot; Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; BackgroundColor=&quot;##1dabf0&quot; TextColor=&quot;White&quot; Text=&quot;Register&quot;/&gt;.../&gt;" />
+            <marker date="1484221364000" expanded="true" signature="266:396" ph="&lt;&lt;RowDefinition/&gt; &lt;RowDefinition Height=&quot;40&quot;/&gt; &lt;RowDefinition Height=&quot;40&quot;/&gt;.../&gt;" />
+            <marker date="1484221364000" expanded="true" signature="399:712" ph="&lt;&lt;Label Text=&quot;Welcome to Xamarin&quot; FontSize=&quot;30&quot; TextColor=&quot;White&quot; FontAttributes=&quot;Bold&quot; HorizontalOptions=&quot;Center&quot; /&gt; &lt;Label Text=&quot;Cross-platform apps made easy&quot; FontSize=&quot;18&quot; TextColor=&quot;White&quot; HorizontalOptions=&quot;Center&quot; /&gt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SignUpPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484221385000" expanded="true" signature="31:130" ph="{...}" />
+            <marker date="1484221385000" expanded="true" signature="66:128" ph="{...}" />
+            <marker date="1484221385000" expanded="true" signature="91:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/AppDelegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484215378000" expanded="true" signature="6:66" ph="..." />
+            <marker date="1484215378000" expanded="true" signature="103:484" ph="{...}" />
+            <marker date="1484215378000" expanded="true" signature="212:482" ph="{...}" />
+            <marker date="1484215378000" expanded="true" signature="313:479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Entitlements.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/LaunchScreen.storyboard">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1484221751000" expanded="true" signature="49:344" ph="{...}" />
+            <marker date="1484221751000" expanded="true" signature="77:342" ph="{...}" />
+            <marker date="1484221751000" expanded="true" signature="83:252" ph="/* This is the main entry point of the application. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Persistence/SqliteDb.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1484737450000" expanded="true" signature="6:151" ph="..." />
+            <marker date="1484737450000" expanded="true" signature="242:580" ph="{...}" />
+            <marker date="1484737450000" expanded="true" signature="282:578" ph="{...}" />
+            <marker date="1484737450000" expanded="true" signature="341:572" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

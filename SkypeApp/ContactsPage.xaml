@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage x:Name="Page" xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="UdemyXamarinExercises.SkypeApp.ContactsPage" >
+		<NavigationPage.ToolbarItems>
+			<ToolbarItem Text="Add">
+			    <ToolbarItem.Command>
+			        <Binding>
+			            <Binding.Path>AddContactCommand</Binding.Path>
+			        </Binding>
+			    </ToolbarItem.Command>
+			</ToolbarItem>
+		</NavigationPage.ToolbarItems>
+		<ListView
+		    HasUnevenRows="true" ItemSelected="Handle_ItemSelected">
+		    <ListView.SelectedItem>
+		        <Binding Mode="TwoWay">
+		            <Binding.Path>SelectedContact</Binding.Path>
+		        </Binding>
+		    </ListView.SelectedItem>
+		    <ListView.ItemsSource>
+		        <Binding>
+		            <Binding.Path>Contacts</Binding.Path>
+		        </Binding>
+		    </ListView.ItemsSource>
+		    <ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell>
+					    <TextCell.Detail>
+					        <Binding>
+					            <Binding.Path>Id</Binding.Path>
+					        </Binding>
+					    </TextCell.Detail>
+					    <TextCell.Text>
+					        <Binding>
+					            <Binding.Path>Name</Binding.Path>
+					        </Binding>
+					    </TextCell.Text>
+					    <TextCell.ContextActions>
+							<MenuItem Text="Delete" Command="{Binding Source={x:Reference Page},
+								Path=ViewModel.DeleteContactCommand}"
+								IsDestructive="true" CommandParameter="{Binding .}"/>
+						</TextCell.ContextActions>
+					</TextCell>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
+</ContentPage>
+

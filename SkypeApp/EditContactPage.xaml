@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="UdemyXamarinExercises.SkypeApp.EditContactPage">
+	<TableView Intent="Form">
+		<TableView.Root>
+			<TableSection Title="NAME">
+				<EntryCell Label="First Name">
+				    <EntryCell.Text>
+				        <Binding>
+				            <Binding.Path>Contact.FirstName</Binding.Path>
+				        </Binding>
+				    </EntryCell.Text>
+				</EntryCell>
+			    <EntryCell Label="Last Name">
+			        <EntryCell.Text>
+			            <Binding>
+			                <Binding.Path>Contact.LastName</Binding.Path>
+			            </Binding>
+			        </EntryCell.Text>
+			    </EntryCell>
+			</TableSection>
+			<TableSection Title="CONTACT">
+				<EntryCell Label="Phone" Keyboard="Telephone">
+				    <EntryCell.Text>
+				        <Binding>
+				            <Binding.Path>Contact.Phone</Binding.Path>
+				        </Binding>
+				    </EntryCell.Text>
+				</EntryCell>
+			    <EntryCell Label="Email" Keyboard="Email">
+			        <EntryCell.Text>
+			            <Binding>
+			                <Binding.Path>Contact.Email</Binding.Path>
+			            </Binding>
+			        </EntryCell.Text>
+			    </EntryCell>
+			</TableSection>
+			<TableSection Title="OTHER">
+				<SwitchCell Text="Blocked">
+				    <SwitchCell.On>
+				        <Binding>
+				            <Binding.Path>Contact.Blocked</Binding.Path>
+				        </Binding>
+				    </SwitchCell.On>
+				</SwitchCell>
+			</TableSection>
+			<TableSection>
+				<ViewCell>
+					<Button Text="Save" HorizontalOptions="Center" VerticalOptions="Center">
+					    <Button.Command>
+					        <Binding>
+					            <Binding.Path>SaveContactCommand</Binding.Path>
+					        </Binding>
+					    </Button.Command>
+					</Button>
+				</ViewCell>
+			</TableSection>
+		</TableView.Root>
+	</TableView>
+</ContentPage>

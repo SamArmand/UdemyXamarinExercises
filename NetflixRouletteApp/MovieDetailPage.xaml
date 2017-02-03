@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="UdemyXamarinExercises.NetflixRouletteApp.MovieDetailPage">
+    <ContentPage.Title>
+        <Binding>
+            <Binding.Path>Title</Binding.Path>
+        </Binding>
+    </ContentPage.Title>
+    <RelativeLayout>
+		<Image x:Name="Poster" Aspect="AspectFill"
+		       RelativeLayout.HeightConstraint="{ConstraintExpression
+			Type=RelativeToParent,
+			Property=Height,
+			Factor=0.5}"
+			RelativeLayout.WidthConstraint="{ConstraintExpression 
+			Type=RelativeToParent,
+			Property=Width,
+			Factor=1}">
+		    <Image.Source>
+		        <Binding>
+		            <Binding.Path>PosterUri</Binding.Path>
+		        </Binding>
+		    </Image.Source>
+		</Image>
+        <StackLayout Padding="10" RelativeLayout.YConstraint="{ConstraintExpression
+			Type=RelativeToView,
+			ElementName=Poster,
+			Property=Height,
+			Factor=1}">
+			<Label FontSize="20">
+			    <Label.Text>
+			        <Binding>
+			            <Binding.Path>Title</Binding.Path>
+			        </Binding>
+			    </Label.Text>
+			</Label>
+            <Label FontSize="15" TextColor="Gray">
+                <Label.Text>
+                    <Binding>
+                        <Binding.Path>ReleaseYear</Binding.Path>
+                    </Binding>
+                </Label.Text>
+            </Label>
+            <Label>
+                <Label.Text>
+                    <Binding>
+                        <Binding.Path>Summary</Binding.Path>
+                    </Binding>
+                </Label.Text>
+            </Label>
+        </StackLayout>
+	</RelativeLayout>
+</ContentPage>

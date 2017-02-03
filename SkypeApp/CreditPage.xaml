@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="UdemyXamarinExercises.SkypeApp.CreditPage">
+	<RelativeLayout>
+		<BoxView BackgroundColor="#F7F7F7" x:Name="Banner"
+			RelativeLayout.WidthConstraint="{ConstraintExpression 
+				Type=RelativeToParent,
+				Property=Width,
+				Factor=1}"
+			RelativeLayout.HeightConstraint="{ConstraintExpression
+				Type=RelativeToParent,
+				Property=Height,
+				Factor=0.3333}"/>
+		<StackLayout HorizontalOptions="Center" VerticalOptions="Center"
+			RelativeLayout.WidthConstraint="{ConstraintExpression 
+				Type=RelativeToView,
+				ElementName=Banner,
+				Property=Width,
+				Factor=1}"
+			RelativeLayout.HeightConstraint="{ConstraintExpression 
+				Type=RelativeToView,
+				ElementName=Banner,
+				Property=Height,
+				Factor=1}">
+			<Label Text="$11.95" TextColor="#33353A" FontSize="60" FontAttributes="Bold"/>
+			<Button BackgroundColor="#1695A3" BorderRadius="15" HeightRequest="30" FontSize="15" FontAttributes="Bold" Text = "Add $7.99 Credit" TextColor="White"/>
+		</StackLayout>
+		<StackLayout HorizontalOptions = "Center" VerticalOptions="Center" Spacing="20"
+			RelativeLayout.YConstraint="{ConstraintExpression 
+				Type=RelativeToView,
+				ElementName=Banner,
+				Property=Height,
+				Factor=1,
+				Constant=30}"
+			RelativeLayout.WidthConstraint="{ConstraintExpression 
+				Type=RelativeToParent,
+				Property=Width,
+				Factor=1}">
+			<Label FontSize="15" FontAttributes="Bold" Text="Why pay for credit?" HorizontalTextAlignment="Center"/>
+			<Label FontSize="13" HorizontalTextAlignment="Center">
+Because you can reach people who aren’t on
+SkypeApp by calling mobile and landline
+numbers, or spending SMS, at low-cost rates.
+			</Label>
+		</StackLayout>
+	</RelativeLayout>
+</ContentPage>

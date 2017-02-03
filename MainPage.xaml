@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="UdemyXamarinExercises.MainPage"
+	NavigationPage.HasNavigationBar="false">
+	<Grid>
+	    <Grid.RowDefinitions>
+	        <RowDefinition />
+	        <RowDefinition />
+	        <RowDefinition />
+	    </Grid.RowDefinitions>
+	    <Grid.ColumnDefinitions>
+	        <ColumnDefinition />
+	        <ColumnDefinition />
+	        <ColumnDefinition />
+	    </Grid.ColumnDefinitions>
+	    <Button Grid.Row="0" Grid.Column="0" Text="SignUp" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="0" Grid.Column="1" Text="Relax" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="0" Grid.Column="2" Text="Quotes" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="1" Grid.Column="0" Text="Gallery" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="1" Grid.Column="1" Text="Airbnb" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="1" Grid.Column="2" Text="Instagram" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="2" Grid.Column="0" Text="Skype" Clicked="Handle_Clicked"/>
+		<Button Grid.Row="2" Grid.Column="1" Text="Netflix Roulette" Clicked="Handle_Clicked"/>
+	</Grid>
+</ContentPage>
